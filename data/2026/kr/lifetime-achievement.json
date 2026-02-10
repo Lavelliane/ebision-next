@@ -1,0 +1,22 @@
+{
+  "name": "이옥연 교수",
+  "image": "/assets/keynotes/lifetime-full.png",
+  "imageMobile": "/assets/keynotes/lifetime.png",
+  "about": "이옥연 교수는 1988년과 1990년에 고려대학교에서 수학 학사 및 석사 학위를, 1996년에 미국 켄터키 대학교에서 수학 박사 학위를 취득했습니다. 2001년부터 국민대학교 정보보안암호수학과 교수로 재직하고 있습니다. 또한 2021년 한국정보보호학회(KIISC) 수석부회장, 2022년 회장을 역임했습니다. 연구 관심 분야는 5G/6G 모바일 네트워크 보안, 위성 통신 보안, 암호 모듈 검증 프로그램(CMVP) 하의 암호 모듈 검증 및 인증입니다.",
+  "researchPublications": [
+    "대표 논문은 다음과 같습니다:",
+    "2023년, \"A Study on Scalar Multiplication Parallel Processing for X25519 Decryption of 5G Core Network SIDF Function for mMTC IoT Environment,\" Wireless Communications and Mobile Computing - 대규모 IoT 환경에서 SUCI 복호화 가속을 위한 GPU 기반 X25519 병렬화를 연구한 논문입니다.",
+    "2024년, \"Rider Optimization with Deep Learning Based Image Encryption for Secure Drone Communication,\" IEEE Access - 안전하고 효율적인 드론 통신을 위한 딥러닝 강화 이미지 암호화 방식을 제안한 논문입니다."
+  ],
+  "drivingResearchProjects": [
+    "주요 국가 연구개발 프로그램에 적극적으로 참여하고 있으며, 다음을 포함합니다:",
+    "2022~2025년: \"M-BcN과 5G 상용망 간 연동 보안 기술 개발\" 공동연구원 - 군 광대역 융합 네트워크(M-BcN)와 상용 5G 인프라 간 안전한 연동 메커니즘 구축을 위한 국방 프로젝트입니다.",
+    "2020~2027년: \"5G+ 기반 6G 통신 보안 기술 연구\" 책임연구원 - 5G+ 아키텍처를 기반으로 미래 6G 모바일 통신 시스템을 위한 고급 정보보안 기술 개발을 목표로 합니다."
+  ],
+  "contributionsToSociety": [
+    "이옥연 교수는 다음과 같은 역할을 통해 국가 연구, 디지털 포렌식, 사이버보안 역량 강화에도 광범위하게 기여했습니다:",
+    "1999년 7월부터 2001년 8월까지 한국전자통신연구원(ETRI) 정보보안인프라연구팀 팀장으로 국가 암호 및 정보보안 시스템에 관한 기초 연구를 수행했습니다.",
+    "2007년 6월부터 대한민국 대검찰청 디지털포렌식 자문위원으로 암호 분석 및 디지털 조사에 관한 전문 자문을 제공하고 있습니다.",
+    "2009년 3월부터 국민대학교 정보보안연구센터 소장으로 암호학, 모바일 네트워크 보안, 국가 수준 사이버보안 기술 연구를 이끌고 있습니다."
+  ]
+}

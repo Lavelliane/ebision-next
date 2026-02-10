@@ -1,0 +1,22 @@
+[
+  {
+    "title": "총괄 위원장",
+    "members": [{ "name": "유일선", "affiliation": "국민대학교, 대한민국" }]
+  },
+  {
+    "title": "주요 조직위원",
+    "members": [
+      { "name": "Kunlin Tsai", "affiliation": "Tunghai University, Taiwan" },
+      { "name": "김지윤", "affiliation": "경상국립대학교, 대한민국" },
+      { "name": "Gaurav Choudhary", "affiliation": "Technical University of Denmark, Denmark" }
+    ]
+  },
+  {
+    "title": "웹 위원장",
+    "members": [
+      { "name": "Vincent Abella", "affiliation": "국민대학교, 대한민국" },
+      { "name": "Jhury Kevin Lastre", "affiliation": "국민대학교, 대한민국" },
+      { "name": "Iskandar Adi Panca Saputra", "affiliation": "국민대학교, 대한민국" }
+    ]
+  }
+]

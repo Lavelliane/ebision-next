@@ -1,0 +1,22 @@
+[
+  {
+    "title": "General Chair",
+    "members": [{ "name": "Ilsun You", "affiliation": "Kookmin University, South Korea" }]
+  },
+  {
+    "title": "Main Organizers",
+    "members": [
+      { "name": "Kunlin Tsai", "affiliation": "Tunghai University, Taiwan" },
+      { "name": "Jiyoon Kim", "affiliation": "Gyeongsang National University, South Korea" },
+      { "name": "Gaurav Choudhary", "affiliation": "Technical University of Denmark, Denmark" }
+    ]
+  },
+  {
+    "title": "Web Chairs",
+    "members": [
+      { "name": "Vincent Abella", "affiliation": "Kookmin University, South Korea" },
+      { "name": "Jhury Kevin Lastre", "affiliation": "Kookmin University, South Korea" },
+      { "name": "Iskandar Adi Panca Saputra", "affiliation": "Kookmin University, South Korea" }
+    ]
+  }
+]
