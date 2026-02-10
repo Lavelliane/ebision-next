@@ -4,7 +4,7 @@ import useEmblaCarousel, { type UseEmblaCarouselType } from "embla-carousel-reac
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import * as React from "react";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/helpers/utils";
+import { cn } from "@/lib/utils";
 
 type CarouselApi = UseEmblaCarouselType[1];
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>;
@@ -60,16 +60,16 @@ function Carousel({
 
   const onSelect = React.useCallback((api: CarouselApi) => {
     if (!api) return;
-    setCanScrollPrev(api.canGoToPrev());
-    setCanScrollNext(api.canGoToNext());
+    setCanScrollPrev(api.canScrollPrev());
+    setCanScrollNext(api.canScrollNext());
   }, []);
 
   const scrollPrev = React.useCallback(() => {
-    api?.goToPrev();
+    api?.scrollPrev();
   }, [api]);
 
   const scrollNext = React.useCallback(() => {
-    api?.goToNext();
+    api?.scrollNext();
   }, [api]);
 
   const handleKeyDown = React.useCallback(
@@ -93,6 +93,7 @@ function Carousel({
   React.useEffect(() => {
     if (!api) return;
     onSelect(api);
+    api.on("reInit", onSelect);
     api.on("select", onSelect);
 
     return () => {

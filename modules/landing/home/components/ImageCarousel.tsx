@@ -1,40 +1,43 @@
 "use client";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import { useRef } from "react";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
 const images = [
   {
-    src: "/assets/kookmin/1.jpg",
-    alt: "Kookmin University 1",
+    src: "/assets/ebision/1.png",
+    alt: "EBISION Conference 1",
   },
   {
-    src: "/assets/kookmin/2.jpg",
-    alt: "Kookmin University 2",
+    src: "/assets/ebision/2.png",
+    alt: "EBISION Conference 2",
   },
   {
-    src: "/assets/kookmin/3.jpg",
-    alt: "Kookmin University 3",
+    src: "/assets/ebision/3.png",
+    alt: "EBISION Conference 3",
   },
   {
-    src: "/assets/kookmin/4.jpg",
-    alt: "Kookmin University 4",
+    src: "/assets/ebision/4.png",
+    alt: "EBISION Conference 4",
   },
   {
-    src: "/assets/kookmin/5.jpg",
-    alt: "Kookmin University 5",
+    src: "/assets/ebision/5.png",
+    alt: "EBISION Conference 5",
   },
   {
-    src: "/assets/kookmin/6.jpg",
-    alt: "Kookmin University 6",
+    src: "/assets/ebision/6.png",
+    alt: "EBISION Conference 6",
   },
 ];
 
 const ImageCarousel = () => {
+  const autoplayPlugin = useRef(Autoplay({ delay: 4000 }));
+
   return (
     <Carousel
       className="w-full h-full rounded-lg overflow-hidden"
-      plugins={[Autoplay({ delay: 4000, defaultInteraction: false })]}
+      plugins={[autoplayPlugin.current]}
       opts={{
         align: "center",
         loop: true,
