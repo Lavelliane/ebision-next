@@ -59,9 +59,9 @@ export const sharedMetadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/android/android-launchericon-192-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon.png", sizes: "192x192", type: "image/png" },
     ],
-    apple: [{ url: "/ios/180.png", sizes: "180x180", type: "image/png" }],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
   },
   manifest: "/manifest.json",
   robots: {
